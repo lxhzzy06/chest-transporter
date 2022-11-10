@@ -1,8 +1,8 @@
 {
   "name": "chest-transporter",
   "version": "0.0.1",
-  "productName": "搬运器",
-  "description": "搬运器",
+  "productName": "搬箱器",
+  "description": "搬箱器",
   "private": true,
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.1",

@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "name": "搬运器v0.0.1行为包",
+    "name": "搬箱器v0.0.1行为包",
     "description": "§o§l§3BY B站吃毛不吐毛球§r\n§l§6适用版本:[1.19.50]§r\n§l§4本包需要开启§6假日创造者功能§r和§l§6测试版API§r",
     "uuid": "a9281762-36c6-402e-a888-ac9af8f0ccfc",
     "version": [0, 0, 1],
@@ -10,7 +10,8 @@
 
   "metadata": {
     "authors": ["simple-mq"],
-    "license": "GPLv3"
+    "license": "GPLv3",
+    "url": "https://github.com/simple-mq/chest-transporter"
   },
   "modules": [
     {

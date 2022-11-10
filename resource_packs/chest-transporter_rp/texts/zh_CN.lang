@@ -1,9 +1,9 @@
-pack.behavior.name=搬运器v0.0.1行为包
+pack.behavior.name=搬箱器v0.0.1行为包
 pack.behavior.description=§o§l§3BY B站吃毛不吐毛球§r\n§l§6适用版本:[1.19.50]§r\n§l§4本包需要开启§6假日创造者功能§r和§l§6S测试版API§r
-pack.resources.name=搬运器v0.0.1资源包
+pack.resources.name=搬箱器v0.0.1资源包
 pack.resources.description=§o§l§3BY B站吃毛不吐毛球§r\n§l§6适用版本:[1.19.50]§r\n§l§4本包需要开启§6假日创造者功能§r和§l§6S测试版API§r
-item.mq:chest_transporter=搬运器(空)
-item.mq:chest_transporter_chest=搬运器(箱子)
-item.mq:chest_transporter_barrel=搬运器(木桶)
+item.mq:chest_transporter=搬箱器(空)
+item.mq:chest_transporter_chest=搬箱器(箱子)
+item.mq:chest_transporter_barrel=搬箱器(木桶)
 action.add.chest=安装箱子
 action.remove.chest=卸下箱子
