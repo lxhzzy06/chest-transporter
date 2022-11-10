@@ -22,7 +22,7 @@
 
 - **[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)**
 
-[klpbbs-shield]: https://img.shields.io/badge/KLPBBS-%E9%80%81%E4%BD%A0%E7%9A%84%E6%89%A7%E5%BF%B5-%09%23228B22?style=flat-square&logo=appveyor
+[klpbbs-shield]: https://img.shields.io/badge/KLPBBS-simple--mq-%09%23228B22?style=flat-square&logo=appveyor
 [klpbbs-url]: https://klpbbs.com/?4722
 [stars-shield]: https://img.shields.io/github/stars/simple-mq/MQ-Chain?style=social
 [stars-url]: https://github.com/simple-mq/MQ-Chain/stargazers
