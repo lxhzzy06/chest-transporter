@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "chest-transporter",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "chest_transporter": {
+      "textures": "textures/items/chest_transporter"
+    },
+    "chest_transporter_chest": {
+      "textures": "textures/items/chest_transporter_chest"
+    },
+    "chest_transporter_barrel": {
+      "textures": "textures/items/chest_transporter_barrel"
+    }
+  }
+}

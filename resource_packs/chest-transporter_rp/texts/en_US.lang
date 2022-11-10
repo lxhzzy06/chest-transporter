@@ -1,0 +1,9 @@
+pack.behavior.name=chest transporterv0.0.1behavior pack
+pack.behavior.description=§o§l§3BY simple-mq§r\n§l§6Support for Minecraft version [1.19.50]§r\n§l§4This pack need enable§6Holiday Creator Features§r and §l§6Script API§r
+pack.resources.name=chest transporterv0.0.1resource pack
+pack.resources.description=§o§l§3BY simple-mq§r\n§l§6Support for Minecraft version [1.19.50]§r\n§l§4This pack need enable§6Holiday Creator Features§r and §l§6Script API§r
+item.mq:chest_transporter=chest transporter(none)
+item.mq:chest_transporter_chest=chest transporter(chest)
+item.mq:chest_transporter_barrel=chest transporter(barrel)
+action.add.chest=安装箱子
+action.remove.chest=卸下箱子

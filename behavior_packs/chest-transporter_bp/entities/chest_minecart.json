@@ -1,0 +1,111 @@
+{
+  "format_version": "1.18.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:chest_minecart",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "remove_chest": {
+        "minecraft:transformation": {
+          "into": "minecraft:minecart",
+          "transformation_sound": "block.barrel.open"
+        }
+      },
+      "timer": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 0,
+          "time_down_event": {
+            "event": "add_chest_event"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "has_equipment",
+                    "subject": "other",
+                    "domain": "hand",
+                    "value": "mq:chest_transporter"
+                  },
+                  {
+                    "test": "is_sneaking",
+                    "subject": "other"
+                  }
+                ]
+              },
+              "event": "remove_chest_event",
+              "target": "self"
+            },
+            "play_sounds": "armor.equip_generic",
+            "interact_text": "action.remove.chest"
+          }
+        ]
+      },
+      "minecraft:type_family": {
+        "family": ["minecart", "inanimate"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.7
+      },
+      "minecraft:rail_movement": {},
+      "minecraft:inventory": {
+        "container_type": "minecart_chest",
+        "inventory_size": 27,
+        "can_be_siphoned_from": true
+      },
+      "minecraft:is_stackable": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 60.0,
+          "max_dropped_ticks": 20,
+          "use_motion_prediction_hints": true
+        },
+        "conditional_values": [
+          {
+            "max_optimized_distance": 0.0,
+            "max_dropped_ticks": 0,
+            "conditional_values": [{ "test": "is_moving", "subject": "self", "operator": "==", "value": true }]
+          }
+        ]
+      }
+    },
+    "events": {
+      "add_chest_event": {},
+      "minecraft:entity_transformed": {
+        "add": {
+          "component_groups": ["timer"]
+        }
+      },
+      "remove_chest_event": {
+        "add": {
+          "component_groups": ["remove_chest"]
+        },
+        "run_command": {
+          "command": ["tag @s add transporter"],
+          "target": "other"
+        }
+      }
+    }
+  }
+}

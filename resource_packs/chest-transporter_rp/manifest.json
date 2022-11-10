@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "搬运器v0.0.1资源包",
+    "description": "§o§l§3BY B站吃毛不吐毛球§r\n§l§6适用版本:[1.19.50]§r\n§l§4本包需要开启§6假日创造者功能§r和§l§6测试版API§r",
+    "uuid": "b0b17f65-3d33-4175-93ac-31f7260216d6",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 19, 40]
+  },
+  "metadata": {
+    "authors": ["simple-mq"],
+    "license": "GPLv3"
+  },
+  "modules": [
+    {
+      "description": "resources module",
+      "type": "resources",
+      "uuid": "4ea7afa1-e186-4811-a853-6d6ca3821d08",
+      "version": [0, 0, 1]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mq:chest_transporter_barrel",
+      "category": "commands"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:icon": {
+        "texture": "chest_transporter_barrel"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:barrel",
+        "use_block_description": true
+      },
+      "minecraft:render_offsets": "tools",
+      "minecraft:on_use_on": {},
+      "minecraft:is_tool": {}
+    },
+    "events": {}
+  }
+}
